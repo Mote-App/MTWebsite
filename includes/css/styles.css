@@ -1,3 +1,23 @@
+/*------Box Shadow -----*/
+
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+
+
 .margin-left{
     margin-left:40%;
 }
@@ -5,7 +25,7 @@
     margin:10px 0;
     padding:10px;
     width:500px;
-    
+    http://youtube.com/squarefactor
 }
 .login-btn{
     width:200px;
@@ -459,6 +479,10 @@ transition: 0.5s;
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+/*Footer*/
+#social{
+    width:100%;
+}
 
 /*Login*/
     #login{width:99%;}
