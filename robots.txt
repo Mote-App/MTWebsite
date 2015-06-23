@@ -1,3 +1,4 @@
 User-agent: googlebot
 Disallow: /motelfe.html
+
 Sitemap: https://motelife.co/sitemap.xml
