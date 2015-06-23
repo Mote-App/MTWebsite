@@ -1,10 +1,11 @@
 /*------Box Shadow -----*/
 
 .box {
-	width:70%;
-	height:200px;
+	width:100%;
+	margin:0;
+    padding:0;
 	background:#FFF;
-	margin:40px auto;
+	margin:0 auto 40px auto;
 }
 
 /*==================================================
