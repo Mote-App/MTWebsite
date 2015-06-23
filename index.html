@@ -92,6 +92,31 @@
             ga('send', 'pageview');
 
         </script>
+    <!-- Google Maps API -->
+    <style>
+        #map-canvas{
+            width:100%;
+            height:500px;
+            background-color:#CCC;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(38.449663, -78.870238),
+                zoom: 14,
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    </script>
 
     </head>
 <body>
@@ -383,16 +408,11 @@
                 <!-- end para blue -->
                 <!-- Contact Us -->
 
-                <div class="map-container map" id="contact canvas1">
-                    <div class="center" style="padding-top:0">
-                        <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50001.49511568374!2d-78.8711824!3d38.4393105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b492c33f077155%3A0x84e65b9dabd7b5f!2sHarrisonburg%2C+VA%2C+USA!5e0!3m2!1sen!2s!4v1432919025330"
-                                width="100%" height="500" frameborder="0" style="border: 0"></iframe>
-                    </div>
+               
 
+                <div id="map-canvas" style="padding-top:0">
 
-                    
                 </div>
-
 
 
                 <div class="white container center" id="contact">
