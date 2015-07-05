@@ -74,16 +74,17 @@
 
 </head>
 <body style="overflow:hidden;">
-      <div>
+    <div>
         <!--Main Div -->
-        <div class="navbar navbar-fixed-top normal navbar-custom" role="navigation"><!--Nav bar will stick to the top-->
+        <div class="navbar navbar-fixed-top normal navbar-custom" role="navigation">
+            <!--Nav bar will stick to the top-->
             <div class="container login">
                 <a class="navbar-brand" href="index.html"><img src="images/Logo/mote-logo.png" alt="Mote Logo" /></a><!-- Logo goes here -->
             </div> <!-- End container -->
         </div>
         <!--End Nav Div-->
         <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-        
+
         <div class="background-img1" id="home">
             <div class="container">
                 <div>
@@ -95,20 +96,50 @@
                     </div>
                     <div class="row" id="login">
                         <div class="input-group ">
-                            <span class="input-group-addon"> <span class="glyphicon glyphicon-lock"> </span></span>
+                            <span class="input-group-addon"> <span class="glyphicon glyphicon-user"> </span></span>
+                            <input type="text" class="form-control" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="row" id="login">
+                        <div class="input-group ">
+                            <span class="input-group-addon"> <span class="glyphicon glyphicon-user"> </span></span>
+                            <input type="text" class="form-control" placeholder="Last Name" />
+                        </div>
+                    </div>
+
+                    <div class="row" id="login">
+                        <div class="input-group ">
+                            <span class="input-group-addon"> <span class="glyphicon glyphicon-briefcase"> </span></span>
+                            <input type="text" class="form-control" placeholder="University" />
+                        </div>
+                    </div>
+
+                    <div class="row" id="login">
+                        <div class="input-group ">
+                            <span class="input-group-addon"> <span class="glyphicon glyphicon-pencil"> </span></span>
+                            <input type="text" class="form-control" placeholder=".edu Email Address" />
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="login">
+                        <div class="input-group ">
+                            <span class="input-group-addon"> <span class="glyphicon glyphicon-pencil"> </span></span>
                             <input type="password" class="form-control" placeholder="Password" />
                         </div>
                     </div>
                 </div><!-- End div -->
-                <div class="row">
-                    <div class="col-6">
-                        <button type="submit" class="btn btn-success login-btn">Login</button>
-                    </div>
-                    <div class="col-6">
-                        <button type="submit" class="btn btn-primary login-btn">Register</button>
-                    </div>
-                </div>
 
+                <div>
+                    <div class="col-12 padding">
+                        <button type="submit" class="btn btn-mote-register login-btn">Sign up</button>
+                    </div>
+                    <h4 style="color:#000;">Already have an account?</h4>
+                    <div class="col-12 padding">
+                        <button type="submit" class="btn btn-mote-login login-btn">Login</button>
+                    </div>
+                    
+
+                </div><!-- End Login Register -->
 
             </div><!-- End Container -->
         </div> <!-- end Background Img -->
