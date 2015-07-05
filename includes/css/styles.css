@@ -1,60 +1,66 @@
 /*------Box Shadow -----*/
 
 .box {
-	width:100%;
-	margin:0;
-    padding:0;
-	background:#FFF;
-	margin:0 auto 40px auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    margin: 0 auto 40px auto;
 }
+
 
 /*==================================================
  * Effect 1
  * ===============================================*/
-.effect1{
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-	   -moz-box-shadow: 0 10px 6px -6px #777;
-	        box-shadow: 0 10px 6px -6px #777;
+.effect1 {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 
 
-.margin-left{
-    margin-left:40%;
+.margin-left {
+    margin-left: 40%;
 }
-#login{
-    margin:10px 0;
-    padding:10px;
-    width:500px;
-    http://youtube.com/squarefactor
+
+#login {
+    margin: 10px 0;
+    padding: 10px;
+    width: 500px;
+    http: //youtube.com/squarefactor;
 }
-.login-btn{
-    width:200px;
-    padding:10px;
-    font-size:18px;
+
+.login-btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
 }
-.footer{
-    font-size:14px;
-      
+
+.footer {
+    font-size: 14px;
 }
-.footer > p{
-    text-align:left;
-}
+
+    .footer > p {
+        text-align: left;
+    }
 
 /*Google Maps API*/
 .scrolloff {
-        pointer-events: none;
-    }
+    pointer-events: none;
+}
 
 /* --------------------------------------
   Basic  Layouts / Global Styles
    -------------------------------------- */
 html {
     height: 100%;
-    overflow-x: hidden;}
+    overflow-x: hidden;
+}
 
-.purple{
-    color:#7F56C6;}
+.purple {
+    color: #7F56C6;
+}
 
 /* --------------------------------------
   Background Image
@@ -67,7 +73,8 @@ html {
     text-align: center;
     background-image: url('../../images/background2.jpg');
     background-size: cover;
-    color: #FFF;}
+    color: #FFF;
+}
 
 .background-img1 { /*Login Page*/
     height: 100vh;
@@ -77,60 +84,89 @@ html {
     text-align: center;
     background-image: url('../../images/grad.jpg');
     background-size: cover;
-    color: #FFF;}
+    color: #FFF;
+}
 
 .title {
-    font-size: 10vw;}
+    font-size: 10vw;
+    color:#000;
+}
 
 .title1 {
-    font-size: 5vw;}
+    font-size: 5vw;
+}
 
 #background-img h1 {
-    font-size: 5em;}
+    font-size: 5em;
+}
 
 #background-img h3 {
     font-size: 3em;
-    color: #FFF;}
+    color: #FFF;
+}
 /* --------------------------------------
   CEO's words
    -------------------------------------- */
 .para {
     padding: 2.5% 15%;
-    color: #FFF;}
+    color: #FFF;
+}
+
 .color2 {
     background-color: #5BA6AC;
-    /*background-color: #51B4AF;*/}
-.padding-top{
-    padding-top:60px;}
+    /*background-color: #51B4AF;*/
+}
+
+.padding-top {
+    padding-top: 60px;
+}
+
 #content {
     text-align: center;
     color: black;
     font-size: 1.75em;
-    text-align: justify;}
+    text-align: justify;
+}
+
 .color1 {
-    background-color: #B6DEDD;}
+    background-color: #B6DEDD;
+}
+
 .color3 {
-    background-color: #665BC4;}
-.color3 > p {
-    font-family: 'Montserrat', sans-serif;}
+    background-color: #665BC4;
+}
+
+    .color3 > p {
+        font-family: 'Montserrat', sans-serif;
+    }
+
 .white {
     background-color: #FFF;
-    color: #000;}
-.white > h1 {
+    color: #000;
+}
+
+    .white > h1 {
         color: #7f56c6;
-        font-weight: 100;}
+        font-weight: 100;
+    }
 /*.col-sm-9, col-sm-3{    padding-bottom}*/
-.margin-top{
-    margin-top:3%;}
+.margin-top {
+    margin-top: 3%;
+}
 
 .profile-info {
     color: #000;
-    font-weight: 200;}
+    font-weight: 200;
+}
+
 .center {
     text-align: center;
-    padding-top: 10px;}
+    padding-top: 10px;
+}
+
 #profile {
-    text-align: center;}
+    text-align: center;
+}
 
 #abstract {
     margin-top: 5px;
@@ -171,8 +207,7 @@ footer {
     font-size: 16px;
     line-height: 15px;
     padding-bottom: 50px;
-    padding:0 0 20px 0;
-    
+    padding: 0 0 20px 0;
 }
 
 .footer-element {
@@ -455,16 +490,16 @@ transition: 0.5s;
     padding-bottom: 1.3%;
 }
 
-#contact > p {
-    text-align: inherit;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-}
+    #contact > p {
+        text-align: inherit;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+    }
 
-#contact > h1, #contact > h3 {
-    color: #618EB5;
-}
+    #contact > h1, #contact > h3 {
+        color: #618EB5;
+    }
 
 /* --------------------------------------
    Media Queries
@@ -477,28 +512,39 @@ transition: 0.5s;
     }
 }
 
+/**/
 
+@media (min-width: 768px) and (max-width: 5000px) {
+    .login {
+        margin-left: 47%;
+    }
+}
+
+
+/*----------------------------------------------------------*/
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-/*Footer*/
-#social{
-    width:100%;
-}
+    /*Footer*/
+    #social {
+        width: 100%;
+    }
 
-/*Login*/
-    #login{width:99%;}
-.login-btn{
-    display:inline;
-    width:100%;
-    
-}
-/* --------------------------------------
+    /*Login*/
+    #login {
+        width: 99%;
+    }
+
+    .login-btn {
+        display: inline;
+        width: 100%;
+    }
+    /* --------------------------------------
 Background Image
 -------------------------------------- */
-.background-img {
-background-image: url('../../images/background-xs.jpg');
-}
-  
+    .background-img {
+        background-image: url('../../images/background-xs.jpg');
+    }
+
 
     /* --------------------------------------
             CEO's words
@@ -548,20 +594,21 @@ background-image: url('../../images/background-xs.jpg');
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
- /* --------------------------------------
+    /* --------------------------------------
   Background Image
    -------------------------------------- */
-
-.background-img {
-background-image: url('../../images/background-sm.jpg');
-}
-.padding-top{
-    padding-top:0;
-}
-
-    .title{
-        padding-top:0;
+    .background-img {
+        background-image: url('../../images/background-sm.jpg');
     }
+
+    .padding-top {
+        padding-top: 0;
+    }
+
+    .title {
+        padding-top: 0;
+    }
+
     .app1 {
         display: block;
     }
@@ -610,7 +657,7 @@ background-image: url('../../images/background-sm.jpg');
         padding: 10px;
     }
 
-   
+
     .para {
         padding: 5% 5%;
     }
@@ -622,8 +669,7 @@ background-image: url('../../images/background-sm.jpg');
 /* Smaller Desktops */
 @media (max-width: 1200px) {
 
-    
-   
+
     .navbar-brand {
         margin-top: 0px;
     }
