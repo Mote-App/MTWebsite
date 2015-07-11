@@ -1,5 +1,23 @@
 
-$(function(){
+$(window).scroll(function () {
+
+    var wScroll = $(this).scrollTop();
+    
+    $('.mote-landing-page').css({
+        'transform' : 'translate(0px, '+ wScroll /3 +'%)'
+    });
+
+    $('.ios-android').css({
+        'transform': 'translate(0px, '+ wScroll /40 + '%)'
+    });
+
+});
+
+
+
+
+
+$(function () {
 
     $('#alertMe').click(function (e) { /*e is the variable */
 
