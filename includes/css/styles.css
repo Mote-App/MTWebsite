@@ -146,6 +146,14 @@ html {
     font-size: 3em;
     color: #FFF;
 }
+#home{
+    z-index:3;
+}
+.main{
+    z-index:3;
+    position:relative;
+    background:white;
+}
 /* --------------------------------------
   CEO's words
    -------------------------------------- */
@@ -238,7 +246,12 @@ footer {
     font-size: 11px;
     padding: 20px;
     text-align: left;
+    /*padding:40px;*/
+    position:fixed;
+    bottom:0;
+
 }
+
 
     footer a:hover {
         text-decoration: none;
@@ -530,6 +543,7 @@ transition: 0.5s;
 #contact {
     color: #000;
     padding-bottom: 1.3%;
+    margin-bottom:436px;
 }
 
     #contact > p {
@@ -675,6 +689,9 @@ Background Image
         background: url('../../images/carousel_small_02.jpg') top center no-repeat;
     }
 
+    #contact {
+    margin-bottom:700px;
+}
 
 
 
