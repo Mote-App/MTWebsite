@@ -1,16 +1,21 @@
 
+//Get the height of the main image to parallax
+
+var pContainerHeight = $('.background-img').height();
 $(window).scroll(function () {
 
     var wScroll = $(this).scrollTop();
     
-    $('.mote-landing-page').css({
-        'transform' : 'translate(0px, '+ wScroll /3 +'%)'
-    });
+    if (wScroll <= pContainerHeight) {
 
-    $('.ios-android').css({
-        'transform': 'translate(0px, '+ wScroll /40 + '%)'
-    });
+        $('.mote-landing-page').css({
+            'transform': 'translate(0px, ' + wScroll / 3 + '%)'
+        });
 
+        $('.ios-android').css({
+            'transform': 'translate(0px, ' + wScroll / 40 + '%)'
+        });
+    }
 });
 
 
