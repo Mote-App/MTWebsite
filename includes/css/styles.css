@@ -88,7 +88,10 @@ html {
     text-align: center;
     background-image: url('../../images/background2.jpg');
     background-size: cover;
+    background-position:top center;
+    background-attachment:fixed;/*For Parallex*/
     color: #FFF;
+    position:relative;
 }
 
 .background-img1 { /*Login Page*/
@@ -101,7 +104,18 @@ html {
     background-size: cover;
     color: #FFF;
 }
-
+/*Parallex*/
+.mote-landing-page {
+    height: 249px;
+    width: 100%;
+    background-image: url('../../images/mote-landing-page1.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    top:50%;
+    padding:20px;
+}
 .title {
     font-size: 10vw;
 }
