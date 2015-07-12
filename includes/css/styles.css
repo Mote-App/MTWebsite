@@ -191,7 +191,7 @@ a{
 }
 /*Parallex*/
 .mote-landing-page {
-    height: 249px;
+    height: 25%;
     width: 100%;
     background-image: url('../../images/mote-landing-page1.png');
     background-position:center;
@@ -800,7 +800,7 @@ Background Image
     }
 
     #contact {
-    margin-bottom:250px;
+    margin-bottom:0;
 }
 
 
