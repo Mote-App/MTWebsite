@@ -20,8 +20,6 @@ $(window).scroll(function () {
 
 
 
-
-
 $(function () {
 
     $('#alertMe').click(function (e) { /*e is the variable */
