@@ -152,10 +152,59 @@
             <h5>Already registered?</h5>
             <div class="row">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-mote-login" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-mote-login" data-toggle="modal" data-target="#myModal">
                         Login
                     </button>
                 </div>
+
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <button class="close" data-dismiss="modal">&times;</button>
+
+                                <h4 class="modal-title">Enter your Login Credentials</h4>
+                                <div class="modal-body">
+
+                                    <form class="form-horizontal">
+                                        <div class="form-group form-group-lg">
+                                            <label class="col-sm-2 control-label" for="formGroupInputLarge">Email </label>
+                                            <div class="col-sm-10 input-group">
+                                                <span class="input-group-addon">@</span>
+                                                <input class="form-control" type="text" id="formGroupInputLarge" placeholder=".edu Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-group-lg">
+                                            <label class="col-sm-2 control-label" for="formGroupInputLarge">Password</label>
+                                            <div class="col-sm-10 input-group">
+                                                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                                                <input class="form-control" type="password" id="formGroupInputLarge" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        
+                                    </form><!--end form-->
+
+                                </div><!-- end modal-body-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" type="button">Login</button>
+                                    
+                                    <button class="btn btn-default" data-dismiss="modal" type="button">Sign up</button>
+
+                                </div><!--end Modal-footer-->
+                            </div><!-- end modal-header-->
+                        </div><!-- end modal-content-->
+
+                    </div><!-- end modal-dialog-->
+
+                </div><!-- end myModal-->
+
 
             </div>
 
@@ -163,7 +212,7 @@
         </div>
 
 
-        
+
     </div>
     <!--Main Div End-->
     <!-- Loading Effect -->
