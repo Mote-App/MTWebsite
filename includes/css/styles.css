@@ -85,6 +85,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-left:-43px;
+  margin-top:-43px;
   z-index: 100;
 }
 
