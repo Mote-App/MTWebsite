@@ -151,7 +151,7 @@ a{
    -------------------------------------- */
 .background-img {
     height: 100vh;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -200,6 +200,7 @@ a{
     position:absolute;
     top:40%;
     padding:20px;
+    margin-left:-50%;
 }
 .ios-android {
     width:100%;
@@ -751,6 +752,13 @@ Background Image
     }
 }
 
+@media (max-width: 767px) {
+   .navbar-collapse {
+      max-height: auto;
+      overflow-x: auto;
+   }
+}
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
@@ -766,7 +774,7 @@ Background Image
     .background-img {
         background-image: url('../../images/background-sm.jpg');
     }
-
+    
     .padding-top {
         padding-top: 0;
     }
