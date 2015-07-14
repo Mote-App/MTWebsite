@@ -821,6 +821,13 @@ Background Image
     }
 }
 
+/* For Google Maps API*/
+
+@media (max-width: 750px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
