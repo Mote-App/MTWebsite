@@ -6,7 +6,7 @@ $(window).scroll(function () {
 
     var wScroll = $(this).scrollTop();
     
-    if (wScroll <= pContainerHeight) {
+    //if (wScroll <= pContainerHeight) {
 
         $('.mote-landing-page').css({
             'transform': 'translate(0px, ' + wScroll / 3 + '%)'
@@ -15,7 +15,7 @@ $(window).scroll(function () {
         $('.ios-android').css({
             'transform': 'translate(0px, ' + wScroll / 60 + '%)'
         });
-    }
+   // }
 });
 
 
