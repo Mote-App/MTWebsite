@@ -13,7 +13,7 @@ $(window).scroll(function () {
         });
 
         $('.ios-android').css({
-            'transform': 'translate(0px, ' + wScroll / 40 + '%)'
+            'transform': 'translate(0px, ' + wScroll / 60 + '%)'
         });
     }
 });
