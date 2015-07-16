@@ -9,7 +9,7 @@ $(window).scroll(function () {
     //if (wScroll <= pContainerHeight) {
 
         $('.mote-landing-page').css({
-            'transform': 'translate(0px, ' + wScroll / 3 + '%)'
+            'transform': 'translate(0px, ' + wScroll / 2.5 + '%)'
         });
 
         $('.ios-android').css({

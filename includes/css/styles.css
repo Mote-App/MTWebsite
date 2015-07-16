@@ -827,6 +827,7 @@ Background Image
     .hidden-on-mobile {
         display: none;
     }
+    
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -876,9 +877,7 @@ Background Image
         background: url('../../images/carousel_small_02.jpg') top center no-repeat;
     }
 
-    #contact {
-        margin-bottom: 0;
-    }
+    
 
 
 
@@ -925,7 +924,7 @@ Background Image
     }
 
     #contact {
-        margin-top: 70px;
+        margin-top: 0px;
     }
 }
 
