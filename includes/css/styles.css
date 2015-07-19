@@ -203,7 +203,30 @@ a {
     position: relative;
     overflow: hidden;
 }
+.error404 {
+    height: 100vh;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../images/landscape.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed; /*For Parallex*/
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+    padding:50px;
+    color:#000;
+}
+.error404-background{
+    padding:50px;
+    padding-bottom:20px;
+    background-color: wheat;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius:5px;
 
+}
 .background-img1 { /*Login Page*/
     height: 100vh;
     display: flex;
@@ -245,6 +268,7 @@ a {
     margin-left: -50%;
 }
 
+
 .ios-android {
     width: 100%;
     height: 486px;
@@ -265,6 +289,15 @@ a {
 
 .title1 {
     font-size: 5vw;
+}
+
+.title2 {
+    font-size: 3vh;
+    text-align:justify;
+}
+.social{
+    width:50px;
+    margin-right:20px;
 }
 
 #background-img h1 {
