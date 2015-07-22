@@ -20,6 +20,7 @@ $(window).scroll(function () {
 
 
 
+
 $(function () {
 
     $('#alertMe').click(function (e) { /*e is the variable */
@@ -137,6 +138,28 @@ $(function () {
     $("#map_canvas1").mouseleave(function () {
         $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
     });
+
+    /* .edu Validator */
+    $("#myForm").validate({
+        rules: {
+            eduEmail1: {
+                required: true,
+                email: true,
+                accept: 'edu'
+            },
+            eduEmail2: {
+                required: true,
+                email: true,
+                accept: 'edu'
+            },
+            eduEmail3: {
+                required: true,
+                email: true,
+                pattern: /(\.edu\.\w\w)$/
+            }
+        }
+    });
+
 
 });
 
