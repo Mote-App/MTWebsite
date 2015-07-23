@@ -1,3 +1,7 @@
+@import 'loading.css';
+@import 'buttons.css';
+@import 'Carousel.css';
+
 /*------Box Shadow -----*/
 
 .box {
@@ -11,89 +15,8 @@
 .padding {
     padding: 20px;
 }
-/*Buttons*/
-.btn-mote-register {
-    background: #7F56C6;
-    color: #FFF;
-    padding: 14px 24px;
-    border: 0 none;
-    width: 150px;
-}
-    /*.btn-mote-register:focus, .btn-mote-register:active:focus, .btn-mote-register.active:focus {
-    outline: 0 none;
-     background:#552BDF;
-}*/
-    .btn-mote-register:visited {
-        background: #7F56C6;
-    }
-
-    .btn-mote-register:hover {
-        background: #7F56C6;
-    }
-
-    .btn-mote-register:active {
-        background: #552BDF;
-    }
-
-.btn-mote-login {
-    background: #FFF;
-    color: #7F56C6;
-    padding: 14px 24px;
-    border: 1px solid #CCCCCC;
-    width: 150px;
-}
-
-    .btn-mote-login:hover {
-        background: #FFF;
-        color: #7F56C6;
-        border: 1px solid #CCCCCC;
-    }
-
-    .btn-mote-login:visited {
-        background: #FFF;
-        color: #7F56C6;
-        border: 1px solid #CCCCCC;
-    }
-
-    .btn-mote-login:active, .btn-mote-login:focus {
-        background: #FAFAFA;
-        color: #7F56C6;
-        border: 1px solid #CCCCCC;
-    }
-/*
-.btn-mote-login, .btn-mote-login:visited{
-    background:#FFF;
-    color:#7F56C6;
-}
-.btn-mote-login:hover{
-    background:#7F56C6;
-    color:#FFF;
-}
- */
 
 
-/*Loading Effect */
-#loading {
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    display: block;
-    opacity: 0.7;
-    background-color: #fff;
-    z-index: 99;
-    text-align: center;
-}
-
-#loading-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -43px;
-    margin-top: -43px;
-    z-index: 100;
-}
 /* Section-title */
 .section-title {
     color: #0E577D;
@@ -577,50 +500,6 @@ ul {
 
 
 /* --------------------------------------
-   Carousel
-   -------------------------------------- */
-
-#myCarousel {
-    margin-top: 60px;
-}
-
-.carousel-caption {
-    font-size: 24px;
-}
-
-    .carousel-caption h4 {
-        font-size: 32px;
-    }
-
-#myCarousel .item {
-    height: 400px;
-}
-
-.hideme {
-    opacity: 0;
-}
-
-#JoinUs {
-    text-align: left;
-}
-
-#slide1 {
-    background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
-}
-
-#slide2 {
-    background: url('../../images/carousel_medium_04.jpg') top center no-repeat;
-}
-
-#slide3 {
-    background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
-}
-
-#slid4 {
-    background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
-}
-
-/* --------------------------------------
    Global Styles
    -------------------------------------- */
 
@@ -645,80 +524,29 @@ ul {
     position: relative;
 }
 
-    .thumbnail h3 {
-        font-size: 16px;
-        margin: 0 0 10px;
-        line-height: 20px;
+.thumbnail h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+.thumbnail .price {
+    font-size: 22px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px;
+}
+
+    .thumbnail .price sup {
+        font-weight: normal;
+        font-size: 12px;
     }
 
-    .thumbnail .price {
-        font-size: 22px;
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        padding: 10px;
-    }
-
-        .thumbnail .price sup {
-            font-weight: normal;
-            font-size: 12px;
-        }
-
-    .thumbnail span.glyphicon {
-        margin-right: 5px;
-    }
-
-/*---------------------------------------
-   Shrinking Navbar
-----------------------------------------*/
-
-/*.normal {
-height: 75px;
--webkit-transition: 0.5s;
--moz-transition: 0.5s;
--ms-transition: 0.5s;
-transition: 0.5s;
-}
-.normal .navbar-right {
-padding-top: 12px;
--webkit-transition: 0.5s;
--moz-transition: 0.5s;
--ms-transition: 0.5s;
-transition: 0.5s;
-}
-.navbar-brand img {
-    max-height: 75px;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    transition: 0.5s;
-}
-.navbar-brand {
-padding: 0px !important;
+.thumbnail span.glyphicon {
+    margin-right: 5px;
 }
 
-.shrink {
-height: 50px;
--webkit-transition: 0.5s;
--moz-transition: 0.5s;
--ms-transition: 0.5s;
-transition: 0.5s;
-}
-.shrink .navbar-right {
-padding-top: 0px;
--webkit-transition: 0.5s;
--moz-transition: 0.5s;
--ms-transition: 0.5s;
-transition: 0.5s;
-}
-.shrink .navbar-brand img {
-max-height: 50px;
--webkit-transition: 0.5s;
--moz-transition: 0.5s;
--ms-transition: 0.5s;
-transition: 0.5s;
-}
-*/
 
 /* --------------------------------------
    Unknowns
@@ -730,16 +558,16 @@ transition: 0.5s;
     margin-bottom: 0;
 }
 
-    #contact > p {
-        text-align: inherit;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 40px;
-    }
+#contact > p {
+    text-align: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
 
-    #contact > h1, #contact > h3 {
-        color: #618EB5;
-    }
+#contact > h1, #contact > h3 {
+    color: #618EB5;
+}
 
 /* --------------------------------------
    Media Queries
@@ -871,10 +699,10 @@ Background Image
     }
 
 
-    /* --------------------------------------
-  Background Image
-   -------------------------------------- */
-    .background-img {
+/* --------------------------------------
+Background Image
+-------------------------------------- */
+.background-img {
         background-image: url('../../images/background-sm.jpg');
     }
 
@@ -910,17 +738,13 @@ Background Image
         background: url('../../images/carousel_small_02.jpg') top center no-repeat;
     }
 
-    
-
-
-
     .carousel-caption {
         font-size: 16px;
     }
 
-        .carousel-caption h4 {
-            font-size: 22px;
-        }
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
 
     #featuresHeading {
         padding: 0 10px;
@@ -934,8 +758,7 @@ Background Image
         width: 100%;
         padding: 10px;
     }
-
-
+    
     .para {
         padding: 5% 5%;
     }
@@ -1024,10 +847,3 @@ Background Image
         padding-right: 0;
     }
 }
-/*
-@media (max-width: 713px) and (max-height: 763px){
-footer{
-    position:initial;
-    z-index:4;
-}
-}*/
