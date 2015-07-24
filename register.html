@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mote - The Collegiate Social Community</title>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <meta name="description" content="Shreyas Gaonkar website - Portfolio">
+
+
+    <!-- Custom Font -->
+    <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- myCSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="includes/js/bloodhound.js"></script>
+    <script src="includes/js/bloodhound.min.js"></script>
+    <script src="includes/js/jquery-1.8.2.min.js"></script>
+
+    <script src="includes/js/script.js"></script>
+    <script src="includes/js/typeahead.bundle.js"></script>
+    <script src="includes/js/typeahead.bundle.min.js"></script>
+    <script src="includes/js/typeahead.jquery.js"></script>
+    <script src="includes/js/typeahead.jquery.min.js"></script>
+
+    <!-- SEO Tools -->
+    <meta name="keywords" content="Mote, App, CollegeLife, Collegelife, " />
+    <meta name="title" content="Welcome to Mote" />
+    <meta name="description" content="Chitramandaar's - Dhyaas is the first Marathi 3D Movie ever made.Check out more here. " />
+    <meta name="author" content="Shreyas Gaonkar" />
+
+    <meta property="og:title" content="Motelife.co" />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://www.motelife.co/" />
+    <meta property="og:site_name" content="motelife.co" />
+    <meta property="fb:admins" content="1426904927561178" />
+    <meta property="og:description" content="Mote - The Collegiate Social Community" />
+
+    <meta name="robots" content="Mote - The Collegiate Social Community" />
+    <meta name="googlebot" content="Mote -The Collegiate Social Community" />
+
+    <!--<meta name="alexaVerifyID" content="kpE5OtGa2kdz2FIBepBlkY-w7Ls" />-->
+    <!-- Google Analytics-->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-37241645-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+<body style="background:#BBB;">
+
+    <!--Main Div -->
+    <div class="navbar navbar-fixed-top normal navbar-custom" role="navigation">
+        <!--Nav bar will stick to the top-->
+        <div class="container login">
+            <a class="navbar-brand" href="index.html"><img src="images/Logo/mote-logo.png" alt="Mote Logo" /></a><!-- Logo goes here -->
+        </div> <!-- End container -->
+    </div>
+    <!--End Nav Div-->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Login div-->
+    <div class="login-background">
+        <div class="login-content">
+            <h4>Signup to Mote</h4>
+            <hr />
+            <form class="form-horizontal">
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" for="formGroupInputLarge">Username</label>
+                    <div class="col-sm-10 input-group">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-user"> </span></span>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Username">
+                    </div>
+                </div>
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" for="formGroupInputLarge">First Name</label>
+                    <div class="col-sm-10 input-group">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-pencil"> </span></span>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" for="formGroupInputLarge">Last Name</label>
+                    <div class="col-sm-10 input-group">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-pencil"> </span></span>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Last Name">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="loading">
+            <img id="loading-image" src="images/loading.gif" alt="Loading..." />
+        </div>
+
+
+        <div class="login-content">
+
+            <form class="form-horizontal" id="myForm">
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" for="formGroupInputLarge">University</label>
+                    <div class="col-sm-10 input-group">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-certificate"> </span></span>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="University">
+                    </div>
+                </div>
+                <div class="form-group form-group-lg">
+                    <label class="col-sm-2 control-label" id="eduEmail3" name="eduEmail3" for="formGroupInputLarge">.edu Email Address</label>
+                    <div class="col-sm-10 input-group">
+                        <span class="input-group-addon">@</span>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder=".edu Email Address">
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class="login-content" style="margin-bottom:0;">
+
+            <div class="row">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-mote-register" aria-haspopup="true" aria-expanded="false">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+            <br />
+            <h5>Already registered?</h5>
+            <div class="row">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-mote-login" data-toggle="modal" data-target="#myModal">
+                        Login
+                    </button>
+                </div>
+
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <button class="close" data-dismiss="modal">&times;</button>
+
+                                <h4 class="modal-title">Enter your Login Credentials</h4>
+                                <div class="modal-body">
+
+                                    <form class="form-horizontal">
+                                        <div class="form-group form-group-lg">
+                                            <label class="col-sm-2 control-label" for="formGroupInputLarge">Email </label>
+                                            <div class="col-sm-10 input-group">
+                                                <span class="input-group-addon">@</span>
+                                                <input class="form-control" type="text" id="formGroupInputLarge emailAddress" placeholder=".edu Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-group-lg">
+                                            <label class="col-sm-2 control-label" for="formGroupInputLarge">Password</label>
+                                            <div class="col-sm-10 input-group">
+                                                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                                                <input class="form-control" type="password" id="formGroupInputLarge" placeholder="Password">
+                                            </div>
+                                        </div>
+
+                                    </form><!--end form-->
+
+                                </div><!-- end modal-body-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" type="button">Login</button>
+
+                                    <button class="btn btn-default" data-dismiss="modal" type="button">Sign up</button>
+
+                                </div><!--end Modal-footer-->
+                            </div><!-- end modal-header-->
+                        </div><!-- end modal-content-->
+
+                    </div><!-- end modal-dialog-->
+
+                </div><!-- end myModal-->
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    <!--Main Div End-->
+    <!-- Loading Effect -->
+    <script language="javascript" type="text/javascript">
+        $(window).load(function () {
+            $('#loading').hide();
+        });
+    </script>
+    <!-- Function to Check Browser Width-->
+    <!-- <div class="container-fluid">Current viewport width:<span id="monitor"></span></div>-->
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+
+</body>
+</html>
