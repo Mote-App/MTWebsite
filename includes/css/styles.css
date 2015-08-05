@@ -291,10 +291,14 @@ a {
 .margin-top {
     margin-top: 3%;
 }
-
+.team-member{
+    font-size:22px;
+    font-weight:500;
+}
 .profile-info {
     color: #000;
-    font-weight: 200;
+    font-weight: 300;
+    font-size:16px;
 }
 
 .center {
@@ -849,7 +853,7 @@ Background Image
 }
 
 @media (min-width: 768px){
-    .footer-hr-1{
+    .visible-on-mobile{
         display:none;
     }
 }
