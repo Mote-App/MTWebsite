@@ -105,6 +105,7 @@ a {
     outline: none;
 }
 
+
 .purple {
     color: #7F56C6;
 }
@@ -327,14 +328,6 @@ p {
 }
 
 footer {
-    /*width: 100%;
-    background: #333;
-    color: #EEE;
-    font-size: 11px;
-    padding: 20px;
-    text-align: left;
-    position:fixed;
-    bottom:0;*/
     background: black;
     color: white;
     padding: 40px 0;
@@ -342,61 +335,59 @@ footer {
     width: 100%;
 }
 
-.footer-stuff {
-    max-width: 640px;
-    margin: 0 auto;
+footer p{
+    font-size:14px;
+    line-height:22px;
+    color:white;
+    text-align:center;
+    opacity:0.7;
+}
+.footer-icon{
+    margin-bottom:50px;
 }
 
-footer a, footer a:active, footer a:visited {
-    color: white;
-    text-decoration: none;
+.footer-tab{
+   font-size:16px;
+   line-height:24px;
+   font-weight:800;
+   margin-bottom:15px;
+}
+.footer-content{
+    max-width:640px;
+    margin:0 auto;
+    font-size:16px;
+   line-height:24px;
+}
+.footer-content ul li a{
+    opacity:0.8;
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+.footer-content ul li a:hover{
+    opacity:1;
+}
+hr.footer-hr {
+    margin-top:50px;
+    border: 0;
+    width:25%;
+    height: 1px;
+    opacity:0.5;
+    background-color:white;
 }
 
-footer ul li a:hover {
-    color: #7F56C6;
+hr.footer-hr-1 {
+    border: 0;
+    width:25%;
+    height: 1px;
+    opacity:0.5;
+    background-color:white;
 }
 
-footer div p {
-    text-align: left;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: #FFF;
-}
-
-.footer-tab {
-    font-size: 16px;
-    line-height: 15px;
-    padding-bottom: 50px;
-    padding: 0 0 20px 0;
-}
-
-.footer-element {
-    font-size: 13px;
-    line-height: 18px;
-    text-decoration: none;
-    list-style: none;
-    padding-top: 0px;
-}
-
-.footer-element1 {
-    font-size: 14px;
-    line-height: 20px;
-    text-decoration: none;
-    list-style: none;
-    padding-top: 0px;
-}
 
 #ahref {
     color: #FFF;
     text-align: center;
-}
-
-.footer-copyright {
-    padding-top: 2%;
-    font-size: 14px;
-    line-height: 20px;
 }
 
 #featuresHeading {
@@ -698,7 +689,16 @@ Background Image
         padding: 10px 0;
     }
 
+    .footer-content{
+        text-align:center;
+    }
+    
+    footer ul li{
+    display:block;
+    line-height:10px;
+}
 
+    
 /* --------------------------------------
 Background Image
 -------------------------------------- */
@@ -845,5 +845,11 @@ Background Image
     .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media (min-width: 768px){
+    .footer-hr-1{
+        display:none;
     }
 }
