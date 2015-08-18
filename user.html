@@ -3,23 +3,23 @@
 <head>
     <title>Your Profile</title>
 
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <!-- SEO Tools -->
     <meta name="keywords" content="Mote, App, CollegeLife, Collegelife, shreyas, gaonkar, collegiate, social, community " />
     <meta name="title" content="Welcome to Mote - The Collegiate Social Community" />
     <meta name="description" content="Mote takes pride in being the first visual representation of all aspects of collegiate life from the eyes of those living it, and available to those who want to view it, anonymously accumulated from within each school." />
     <meta name="author" content="Shreyas Gaonkar" />
-
     <meta property="og:title" content="Your profile of Motelife.co" />
     <meta property="og:type" content="company" />
     <meta property="og:url" content="http://www.motelife.co/" />
     <meta property="og:site_name" content="motelife.co" />
     <meta property="fb:admins" content="1426904927561178" />
     <meta property="og:description" content="Mote takes pride in being the first visual representation of all aspects of collegiate life from the eyes of those living it, and available to those who want to view it, anonymously accumulated from within each school." />
-
     <meta name="robots" content="Mote - The Collegiate Social Community" />
     <meta name="googlebot" content="Mote -The Collegiate Social Community" />
-
-    <!-- SEO -->
     <link href="https://www.motelife.co/" rel="canonical" />
     <meta name="ROBOT NAME" content="ARGUMENTS" />
 
@@ -46,22 +46,26 @@
     <!-- Custom Font -->
     <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
     <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-    <!-- Mobile viewport optimized -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    
     <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
     <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+
     <!-- myCSS -->
     <link href="includes/css/styles.css" rel="stylesheet">
-
+    <!-- JavaScript-->
+    <script src="includes/js/refresh.js"></script>
+    
     <!-- Apple Smart Banner -->
     <meta name="apple-itunes-app" content="app-id=2be7daa5">
+
+    <!-- Refresh CSS-->
+    <link rel="stylesheet" href="lib/genericons/genericons.css">
+    <link href="includes/css/base.css" rel="stylesheet" />
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -78,5 +82,61 @@
 </head>
 <body>
 
+    <!--<div id="loading">
+        <img id="loading-image" src="images/loading.gif" alt="Loading..." />
+    </div>-->
+    <div id="ptr">
+        <span class="genericon genericon-next"></span>
+        <div class="loading">
+            <span id="l1"></span>
+            <span id="l2"></span>
+            <span id="l3"></span>
+        </div>
+    </div>
+    <div id="content">
+       <!-- Main Content Goes Here -->
+
+
+        <!--Main Div -->
+        <div class="navbar navbar-fixed-top normal navbar-custom" role="navigation">
+            <!--Nav bar will stick to the top-->
+            <div class="container login">
+                <a class="navbar-brand" href="index.html"><img src="images/Logo/mote-logo.png" alt="Mote Logo" /></a><!-- Logo goes here -->
+            </div> <!-- End container -->
+        </div>
+        <!--End Nav Div-->
+        
+        <div class="container">
+            
+            <h3>Pull to refresh</h3>    
+
+        </div><!-- end container -->
+
+
+        <!-- Main Content Ends Here -->
+    </div>
+    <script src="lib/hammer.2.0.4.js"></script>
+    <script src="lib/wptr.1.1.js"></script>
+    <script>
+            window.onload = function() {
+                WebPullToRefresh.init( {
+                    loadingFunction: exampleLoadingFunction
+                } );
+            };
+
+            // Just an example loading function that returns a
+            // promise that WebPullToRefresh can use.
+            var exampleLoadingFunction = function() {
+                return new Promise( function( resolve, reject ) {
+                    // Run some async loading code here
+
+                    if ( true /* if the loading worked */ ) {
+                        resolve();
+                    } else {
+                        reject();
+                    }
+                } );
+            };
+    </script>
 </body>
 </html>

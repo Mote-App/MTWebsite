@@ -125,7 +125,7 @@
 
     <div id="fullpage">
         <!--Main Div -->
-        <<div class="navbar navbar-fixed-top normal navbar-custom" role="navigation">
+        <div class="navbar navbar-fixed-top normal navbar-custom" role="navigation">
 
             <!--Nav bar will stick to the top-->
             <div class="container">
@@ -353,7 +353,7 @@
 
                         <div class="col-lg-4 col-md-12 col-sm-12 margin-top feature">
                             <a href="#/">
-                                <img src="images/profiles/ryan.png" title="Ryan Ohneiser" alt="Ryan Ohneiser" onmouseover="this.src = 'images/profiles/ryan.jpg'" onmouseout="this.src = 'images/profiles/ryan.png'" class="img-circle hideme" alt="Ryan Ohneiser" />
+                                <img src="images/profiles/ryan.png" title="Ryan Ohneiser" alt="Ryan Ohneiser" onmouseover="this.src = 'images/profiles/ryan.jpg'" onmouseout="this.src = 'images/profiles/ryan.png'" class="img-circle hideme" />
                             </a>
                             <p class="center">
                                 <span class="team-member">Ryan Ohneiser</span><br />
@@ -478,8 +478,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-tab">Follow Us</div>
                         <ul>
-                            <li><a>Facebook</a></li>
-                            <li><a>Twitter</a></li>
+                            <li><a href="https://www.facebook.com/CollegeLifeLLC2014?fref=ts" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/2014collegelife" target="_blank">Twitter</a></li>
                             <li><a>Instagram</a></li>
                             <li><a>Pinterest</a></li>
                         </ul>
@@ -522,7 +522,34 @@
             $('#loading').hide();
         });
     </script>
+    <!-- Structured Data -->
 
-
+    <script type="application/ld+json">
+        {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "url": "http://www.motelife.co",
+        "logo": "http://www.motelife.co/images/Logo/logo-purple.png",
+        "contactPoint" : [{
+        "@type" : "ContactPoint",
+        "telephone" : "+1-973-294-8268",
+        "contactType" : "customer service",
+        "areaServed" : "US",
+        "availableLanguage" : "English"
+        }]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context" : "http://schema.org",
+        "@type" : "Person",
+        "name" : "Kevin Schafer",
+        "url" : "http://www.motelife.co",
+        "sameAs" : [
+        "https://www.facebook.com/CollegeLifeLLC2014?fref=ts",
+        "https://twitter.com/2014collegelife"
+        ]
+        }
+    </script>
 </body>
 </html>

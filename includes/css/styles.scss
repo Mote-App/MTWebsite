@@ -23,7 +23,7 @@
     font-size: 33px;
     font-weight: normal;
     border-bottom: 1px solid #f1eaea;
-    border-width: 50%;
+    //border-width: 50%;
     padding: 0px 0 28px;
     text-align: center;
 }
@@ -671,7 +671,7 @@ Background Image
 
 @media (max-width: 767px) {
     .navbar-collapse {
-        max-height: auto;
+       // max-height: auto;
         overflow-x: auto;
     }
 }
