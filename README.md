@@ -11,7 +11,7 @@ Copyright © 2014–2015 [CollegeLife, llc](http://motelife.co).
 
 ## About Mote
 
-[<img src="http://thoughtbot.github.io/images/signature.svg" width="250" alt="thoughtbot logo">][hire]
+[<img src="http://www.motelife.co/images/Logo/logo-purple.png" width="250" alt="Motelife">]
 
 Mote-App is maintained and funded by CollegeLife, LLC
 
