@@ -7,7 +7,7 @@ Website coded in HTML5, CSS3 & Bootstrap 3 optimized for larger desktops and mob
 
 ## License
 
-Copyright © 2014–2015 [CollegeLife, llc](http://motelife.co).
+Copyright © 2014–2015 [CollegeLife, LLC](http://motelife.co).
 
 ## About Mote
 
