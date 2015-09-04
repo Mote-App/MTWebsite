@@ -1,4 +1,4 @@
-CLWebsite
+Mote
 =========
 
 CollegeLife Website Code
