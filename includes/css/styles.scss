@@ -51,7 +51,6 @@
     display: table;
     margin: -14px auto 50px;
     background: #FFF;
-
 }
 /*==================================================
  * Effect 1
@@ -83,9 +82,9 @@
     font-size: 14px;
 }
 
-    .footer > p {
-        text-align: left;
-    }
+.footer > p {
+    text-align: left;
+}
 
 /*Google Maps API*/
 .scrolloff {
@@ -126,6 +125,7 @@ a {
     position: relative;
     overflow: hidden;
 }
+
 .error404 {
     height: 100vh;
     /*display: flex;*/
@@ -138,18 +138,19 @@ a {
     color: #FFF;
     position: relative;
     overflow: hidden;
-    padding:50px;
-    color:#000;
+    padding: 50px;
+    color: #000;
 }
-.error404-background{
-    padding:50px;
-    padding-bottom:20px;
+
+.error404-background {
+    padding: 50px;
+    padding-bottom: 20px;
     background-color: wheat;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-    border-radius:5px;
-
+    border-radius: 5px;
 }
+
 .background-img1 { /*Login Page*/
     height: 100vh;
     display: flex;
@@ -216,11 +217,12 @@ a {
 
 .title2 {
     font-size: 3vh;
-    text-align:justify;
+    text-align: justify;
 }
-.social{
-    width:50px;
-    margin-right:20px;
+
+.social {
+    width: 50px;
+    margin-right: 20px;
 }
 
 #background-img h1 {
@@ -273,31 +275,33 @@ a {
     background-color: #665BC4;
 }
 
-    .color3 > p {
-        font-family: 'Montserrat', sans-serif;
-    }
+.color3 > p {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .white {
     background-color: #FFF;
     color: #000;
 }
 
-    .white > h1 {
-        color: #7f56c6;
-        font-weight: 100;
-    }
+.white > h1 {
+    color: #7f56c6;
+    font-weight: 100;
+}
 /*.col-sm-9, col-sm-3{    padding-bottom}*/
 .margin-top {
     margin-top: 3%;
 }
-.team-member{
-    font-size:22px;
-    font-weight:500;
+
+.team-member {
+    font-size: 22px;
+    font-weight: 500;
 }
+
 .profile-info {
     color: #000;
     font-weight: 300;
-    font-size:16px;
+    font-size: 16px;
 }
 
 .center {
@@ -322,9 +326,9 @@ p {
     text-align: center;
 }
 
-    #features img {
-        margin: 0 0 20px 0;
-    }
+#features img {
+    margin: 0 0 20px 0;
+}
 
 #inputMessage {
     margin-bottom: 15px;
@@ -338,53 +342,58 @@ footer {
     width: 100%;
 }
 
-footer p{
-    font-size:14px;
-    line-height:22px;
-    color:white;
-    text-align:center;
-    opacity:0.7;
-}
-.footer-icon{
-    margin-bottom:50px;
+footer p {
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
 }
 
-.footer-tab{
-   font-size:16px;
-   line-height:24px;
-   font-weight:800;
-   margin-bottom:15px;
+.footer-icon {
+    margin-bottom: 50px;
 }
-.footer-content{
-    max-width:640px;
-    margin:0 auto;
-    font-size:16px;
-   line-height:24px;
+
+.footer-tab {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
 }
-.footer-content ul li a{
-    opacity:0.8;
-    color:white;
-    text-decoration:none;
-    cursor:pointer;
+
+.footer-content {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
 }
-.footer-content ul li a:hover{
-    opacity:1;
+
+.footer-content ul li a {
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+.footer-content ul li a:hover {
+    opacity: 1;
+}
+
 hr.footer-hr {
-    margin-top:50px;
+    margin-top: 50px;
     border: 0;
-    width:25%;
+    width: 25%;
     height: 1px;
-    opacity:0.5;
-    background-color:white;
+    opacity: 0.5;
+    background-color: white;
 }
 
 hr.footer-hr-1 {
     border: 0;
-    width:25%;
+    width: 25%;
     height: 1px;
-    opacity:0.5;
-    background-color:white;
+    opacity: 0.5;
+    background-color: white;
 }
 
 
@@ -401,7 +410,24 @@ hr.footer-hr-1 {
     padding-top: 60px;
 }
 
+/* --------------------------------------
+ Privacy
+   -------------------------------------- */
+.privacy {
+    
+    h3{
+        color:#7f56c6;
+    }
 
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        border-left:solid;
+        border-left-color: rgba(127,86,198,0.7);
+        border-left-width:2px;
+        padding-left:10px;
+    }
+}
 
 /* --------------------------------------
    Typography
@@ -418,9 +444,9 @@ body {
     margin-top: 0;
 }
 
-    .well .page-header h1 {
-        margin-top: 0;
-    }
+.well .page-header h1 {
+    margin-top: 0;
+}
 
 ul {
     list-style: none;
@@ -458,9 +484,9 @@ ul {
     color: #fff; /*Color of navbar font*/
 }
 
-    .navbar-custom .navbar-nav > li > a:hover {
-        color: #C4ACED; /*Light Violet color for navbar hover*/
-    }
+.navbar-custom .navbar-nav > li > a:hover {
+    color: #C4ACED; /*Light Violet color for navbar hover*/
+}
 
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
@@ -532,10 +558,10 @@ ul {
     padding: 10px;
 }
 
-    .thumbnail .price sup {
-        font-weight: normal;
-        font-size: 12px;
-    }
+.thumbnail .price sup {
+    font-weight: normal;
+    font-size: 12px;
+}
 
 .thumbnail span.glyphicon {
     margin-right: 5px;
@@ -587,12 +613,12 @@ ul {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-     /* Section-title */
+    /* Section-title */
     .section-title {
         font-size: 33px;
         border-bottom: 1px solid #f1eaea;
         padding: 0px 0 28px;
-        margin-top:-25px;
+        margin-top: -25px;
     }
 
     .section-title-hr {
@@ -615,6 +641,10 @@ ul {
         display: inline;
         width: 100%;
     }
+
+    .privacy {
+        margin-top: 75px;
+    }
     /* --------------------------------------
 Background Image
 -------------------------------------- */
@@ -636,17 +666,17 @@ Background Image
         font-size: 14px;
     }
 
-        .thumbnail .price sup {
-            font-size: 10px;
-        }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
 
     .thumbnail .price {
         font-size: 14px;
     }
 
-        .thumbnail .price sup {
-            font-size: 10px;
-        }
+    .thumbnail .price sup {
+        font-size: 10px;
+    }
 
     #content {
         font-size: 1.2em;
@@ -671,7 +701,7 @@ Background Image
 
 @media (max-width: 767px) {
     .navbar-collapse {
-       // max-height: auto;
+        // max-height: auto;
         overflow-x: auto;
     }
 }
@@ -682,7 +712,6 @@ Background Image
     .hidden-on-mobile {
         display: none;
     }
-    
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -692,20 +721,20 @@ Background Image
         padding: 10px 0;
     }
 
-    .footer-content{
-        text-align:center;
+    .footer-content {
+        text-align: center;
     }
-    
-    footer ul li{
-    display:block;
-    line-height:10px;
-}
 
-    
-/* --------------------------------------
+    footer ul li {
+        display: block;
+        line-height: 10px;
+    }
+
+
+    /* --------------------------------------
 Background Image
 -------------------------------------- */
-.background-img {
+    .background-img {
         background-image: url('../../images/background-sm.jpg');
     }
 
@@ -761,7 +790,7 @@ Background Image
         width: 100%;
         padding: 10px;
     }
-    
+
     .para {
         padding: 5% 5%;
     }
@@ -834,16 +863,16 @@ Background Image
         box-shadow: none;
     }
 
-        .navbar-collapse.collapse {
-            display: block !important;
-            height: auto !important;
-            padding-bottom: 0;
-            overflow: visible !important;
-        }
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
 
-        .navbar-collapse.in {
-            overflow-y: visible;
-        }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
 
     .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
         padding-left: 0;
@@ -851,8 +880,8 @@ Background Image
     }
 }
 
-@media (min-width: 768px){
-    .visible-on-mobile{
-        display:none;
+@media (min-width: 768px) {
+    .visible-on-mobile {
+        display: none;
     }
 }
