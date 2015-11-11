@@ -414,18 +414,18 @@ hr.footer-hr-1 {
  Privacy
    -------------------------------------- */
 .privacy {
-    
-    h3{
-        color:#7f56c6;
+
+    h3 {
+        color: #7f56c6;
     }
 
     p {
         font-size: 18px;
         line-height: 24px;
-        border-left:solid;
+        border-left: solid;
         border-left-color: rgba(127,86,198,0.7);
-        border-left-width:2px;
-        padding-left:10px;
+        border-left-width: 2px;
+        padding-left: 10px;
     }
 }
 
@@ -452,6 +452,7 @@ ul {
     list-style: none;
     padding: 0;
 }
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -698,6 +699,18 @@ Background Image
         margin-top: 70px;
     }
 }
+
+.profile-picture {
+    a > img {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+    a:hover > img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+}
+
 
 @media (max-width: 767px) {
     .navbar-collapse {
